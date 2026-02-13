@@ -75,6 +75,38 @@ Al iniciar la aplicación por primera vez, se crean automáticamente los siguien
 
 ---
 
+---
+
+## 🚀 Ejecución del Proyecto
+
+### 1. Requisitos Previos
+
+- Tener instalado el **SDK de .NET 10**.
+
+### 2. Clonar el Repositorio
+
+```bash
+git clone <url-del-repositorio>
+cd AuthApi
+```
+
+### 3. Ejecutar el Proyecto
+
+Para iniciar la aplicación, ejecuta el siguiente comando en la raíz del proyecto. Esto restaurará las dependencias y aplicará las migraciones de base de datos automáticamente (si están configuradas).
+
+```bash
+dotnet run
+```
+
+### 4. Acceder
+
+Una vez iniciada, puedes acceder a:
+
+- **API**: `http://localhost:5263`
+- **Swagger UI**: [http://localhost:5263/swagger/index.html](http://localhost:5263/swagger/index.html)
+
+---
+
 ## 🛠️ Tecnologías
 
 - **Framework**: .NET 10
