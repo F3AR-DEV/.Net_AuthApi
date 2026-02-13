@@ -92,11 +92,18 @@ cd AuthApi
 
 ### 3. Ejecutar el Proyecto
 
-Para iniciar la aplicación, ejecuta el siguiente comando en la raíz del proyecto. Esto restaurará las dependencias y aplicará las migraciones de base de datos automáticamente (si están configuradas).
+Para iniciar la aplicación, ejecuta los siguientes comandos en la raíz del proyecto.
 
-```bash
-dotnet run
-```
+1.  **Restaurar y Actualizar Base de Datos**:
+
+    ```bash
+    dotnet ef database update
+    ```
+
+2.  **Iniciar Servidor**:
+    ```bash
+    dotnet run
+    ```
 
 ### 4. Acceder
 
