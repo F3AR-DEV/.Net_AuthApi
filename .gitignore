@@ -33,8 +33,6 @@ bld/
 
 # Environment
 .env
-appsettings.Local.json
-appsettings.Development.json
 
 # Node.js
 node_modules/
